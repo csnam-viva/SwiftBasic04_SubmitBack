@@ -119,6 +119,10 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="V8x-4g-yTM">
                                 <rect key="frame" x="248" y="377" width="94" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onStepperChange:" destination="Gqn-P4-W2q" eventType="valueChanged" id="aiO-jZ-6JO"/>
+                                    <action selector="onValueChange:" destination="Gqn-P4-W2q" eventType="valueChanged" id="mvF-wv-sKA"/>
+                                </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="자동갱신" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgH-7s-h02">
                                 <rect key="frame" x="168" y="322" width="105" height="21"/>
@@ -137,6 +141,10 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6lD-0u-8Qo">
                                 <rect key="frame" x="295" y="322" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onSwich:" destination="Gqn-P4-W2q" eventType="valueChanged" id="76o-3T-E1u"/>
+                                    <action selector="onUpdateChange:" destination="Gqn-P4-W2q" eventType="valueChanged" id="yUh-MH-Ebc"/>
+                                </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxN-eS-IlE">
                                 <rect key="frame" x="154" y="464" width="76" height="35"/>

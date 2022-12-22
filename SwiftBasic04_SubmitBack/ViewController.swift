@@ -23,15 +23,29 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        if let email = paramEmail{
+        // 직접 전달
+//        if let email = paramEmail{
+//            resultEmail.text = email
+//        }
+//        if let update = paramUpdate{
+//            resultUpdate.text = update == true ? "auto update" :"No update"
+//        }
+//        if let interval = paramInterval{
+//            resultInterval.text = "\(Int(interval))분마다 갱신 "
+//        }
+        // 저장소를 이용하는 방법
+        let ad = UIApplication.shared.delegate as? AppDelegate
+        if let email = ad?.paramEmail{
             resultEmail.text = email
         }
-        if let update = paramUpdate{
+        if let update = ad?.paramUpdate{
             resultUpdate.text = update == true ? "auto update" :"No update"
         }
-        if let interval = paramInterval{
+        if let interval = ad?.paramInterval{
             resultInterval.text = "\(Int(interval))분마다 갱신 "
         }
+        
+        // 
     }
   
 
