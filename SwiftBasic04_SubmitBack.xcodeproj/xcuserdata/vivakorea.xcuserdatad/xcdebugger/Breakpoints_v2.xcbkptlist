@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "76ACD9C3-6CF9-4288-8B4D-F46D377F06A6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC1B961E-6047-49FD-8687-62B56DCF5280"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftBasic04_SubmitBack/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEB6212F-0AEA-4BB2-8758-D5486A22BD85"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftBasic04_SubmitBack/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "viewDidAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CEB6212F-0AEA-4BB2-8758-D5486A22BD85 - 5d532c74e47bf4d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftBasic04_SubmitBack.ViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "SwiftBasic04_SubmitBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivakorea/Desktop/SwiftBasic/SwiftBasic04_SubmitBack/SwiftBasic04_SubmitBack/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "CEB6212F-0AEA-4BB2-8758-D5486A22BD85 - 5d532c74e47bf4d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftBasic04_SubmitBack.ViewController.viewDidAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "SwiftBasic04_SubmitBack"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vivakorea/Desktop/SwiftBasic/SwiftBasic04_SubmitBack/SwiftBasic04_SubmitBack/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
