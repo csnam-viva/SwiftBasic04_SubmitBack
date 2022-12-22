@@ -25,18 +25,18 @@ class FormViewContorller: UIViewController{
 //        vc.paramUpdate = self.isUpdate.isOn
 //        vc.paramInterval = self.interval.value
               
-         //저장소를 이용한 저장방식
+//         //저장소를 이용한 저장방식
+//
+//        let ad = UIApplication.shared.delegate as? AppDelegate
+//        ad?.paramEmail = self.email.text
+//        ad?.paramUpdate = self.isUpdate.isOn
+//        ad?.paramInterval = self.interval.value
         
-        let ad = UIApplication.shared.delegate as? AppDelegate
-        ad?.paramEmail = self.email.text
-        ad?.paramUpdate = self.isUpdate.isOn
-        ad?.paramInterval = self.interval.value
-        
-//        // UserDefault이용하는 방식
-//        let ud = UserDefaults.standard
-//        ud.set(self.email.text, forKey: "email")
-//        ud.set(self.isUpdate.isOn,forKey: "isUpdate")
-//        ud.set(self.interval.value,forKey: "interval")
+        // UserDefault이용하는 방식
+        let ud = UserDefaults.standard
+        ud.set(self.email.text, forKey: "email")
+        ud.set(self.isUpdate.isOn,forKey: "isUpdate")
+        ud.set(self.interval.value,forKey: "interval")
         
         self.presentingViewController?.dismiss(animated: true)
     }

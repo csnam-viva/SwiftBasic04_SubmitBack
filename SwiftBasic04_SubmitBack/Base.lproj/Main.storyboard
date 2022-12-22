@@ -121,7 +121,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onStepperChange:" destination="Gqn-P4-W2q" eventType="valueChanged" id="aiO-jZ-6JO"/>
-                                    <action selector="onValueChange:" destination="Gqn-P4-W2q" eventType="valueChanged" id="mvF-wv-sKA"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="자동갱신" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgH-7s-h02">
@@ -143,7 +142,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="onSwich:" destination="Gqn-P4-W2q" eventType="valueChanged" id="76o-3T-E1u"/>
-                                    <action selector="onUpdateChange:" destination="Gqn-P4-W2q" eventType="valueChanged" id="yUh-MH-Ebc"/>
                                 </connections>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxN-eS-IlE">
@@ -162,7 +160,9 @@
                     <connections>
                         <outlet property="email" destination="y3Z-Tb-Zpo" id="00W-UB-Q9M"/>
                         <outlet property="interval" destination="V8x-4g-yTM" id="Ehd-3c-cLk"/>
+                        <outlet property="intervalText" destination="VDC-l9-26p" id="3lV-lx-wPc"/>
                         <outlet property="isUpdate" destination="6lD-0u-8Qo" id="LbT-Sb-SCd"/>
+                        <outlet property="isUpdateText" destination="EgH-7s-h02" id="woe-XD-aU4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y4C-3M-5CH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

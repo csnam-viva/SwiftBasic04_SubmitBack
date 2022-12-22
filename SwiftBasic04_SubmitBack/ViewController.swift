@@ -34,18 +34,38 @@ class ViewController: UIViewController {
 //            resultInterval.text = "\(Int(interval))분마다 갱신 "
 //        }
         // 저장소를 이용하는 방법
-        let ad = UIApplication.shared.delegate as? AppDelegate
-        if let email = ad?.paramEmail{
+//        let ad = UIApplication.shared.delegate as? AppDelegate
+//        if let email = ad?.paramEmail{
+//            resultEmail.text = email
+//        }
+//        if let update = ad?.paramUpdate{
+//            resultUpdate.text = update == true ? "auto update" :"No update"
+//        }
+//        if let interval = ad?.paramInterval{
+//            resultInterval.text = "\(Int(interval))분마다 갱신 "
+//        }
+        
+        //  UserDefaults 객체
+        let ud = UserDefaults.standard
+        if let email = ud.string(forKey: "email") {
             resultEmail.text = email
         }
-        if let update = ad?.paramUpdate{
-            resultUpdate.text = update == true ? "auto update" :"No update"
-        }
-        if let interval = ad?.paramInterval{
-            resultInterval.text = "\(Int(interval))분마다 갱신 "
+    
+        if let email2 = ud.value(forKey: "email") as? String{
+            resultEmail.text = email2
         }
         
-        // 
+        
+        
+        
+        let update = ud.bool(forKey: "isUpdate")
+        resultUpdate.text = (update == true ? "auto update" :"No update")
+        
+        let interval = ud.double(forKey: "interval")
+        resultInterval.text = "\(Int(interval))분마다 갱신 "
+        
+
+
     }
   
 
